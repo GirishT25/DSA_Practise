@@ -22,10 +22,10 @@ int main(){
   // This is called the minimum heap where the minimum element get store at the top of the queue
  
   priority_queue<int, vector<int> , greater<int>> pq1 ;
-  pq.push(10);
-  pq.push(20);
-  pq.push(30);
-  pq.push(40);
+  pq1.push(10);
+  pq1.push(20);
+  pq1.push(30);
+  pq1.push(40);
 
 
   cout << pq1.top() << "\n";
